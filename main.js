@@ -43,7 +43,7 @@ function refreshData(){
         calculateEggSell(eggs,function(wei){
             devFee(wei,function(fee){
                 console.log('examplesellprice ',wei)
-                sellsforexampledoc.textContent='('+formatEggs(eggs)+' eggs would sell for '+formatEthValue(web3.fromWei(wei-fee,'ether'))+')'
+                sellsforexampledoc.textContent='('+formatEggs(eggs)+' peace would sell for '+formatEthValue(web3.fromWei(wei-fee,'ether'))+')'
             });
         });
     });
