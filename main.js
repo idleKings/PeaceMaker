@@ -96,9 +96,6 @@ function refreshData(){
         if(num>200){
             gfsdoc.style.display="none"
         }
-        else{
-            gfsdoc.style.display="inline-block"
-        }
 	});
 	
     updateBuyPrice()
