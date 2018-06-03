@@ -440,7 +440,7 @@ abi=[
 		"type": "constructor"
 	}
 ];
-contractAddress="0x000000";
+contractAddress="0x55d743F548490C837858de0e815b2C3a7d4C3198";
 
 function buyEggs(eth,callback){
     var contractAbi = web3.eth.contract(abi);
