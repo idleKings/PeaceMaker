@@ -478,10 +478,10 @@ function getFreePacifist(eth,callback){
     var contractAbi = web3.eth.contract(abi);
     var myContract = contractAbi.at(contractAddress);
     var outputData = myContract.getFreePacifist.getData();
-    var endstr=web3.eth.sendTransaction({to:contractAddress, from:null, data: outputData,value: eth},
+    var endstr=web3.eth.sendTransaction({to:contractAddress, from:null, data: outputData},
     function(error,result){
         if(!error){
-            console.log('getFreePacifist ',eth);
+            console.log('getFreePacifist ');
             callback()
         }
         else{
