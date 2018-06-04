@@ -76,7 +76,7 @@ function refreshData(){
             gfsdoc.style.display="none"
         }
         else{
-            gfsdoc.style.display="inline-block"
+           // gfsdoc.style.display="inline-block"
         }
         var allnumpacifist=document.getElementsByClassName('numpacifist')
         for(var i=0;i<allnumpacifist.length;i++){
